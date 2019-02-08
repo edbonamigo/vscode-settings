@@ -1,0 +1,58 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+    {
+        "key": "ctrl+shift+x",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.view.explorer"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+        "when": "inFilesPicker && inQuickOpen"
+    },
+    {
+        "key": "ctrl+shift+e",
+        "command": "workbench.view.extensions"
+    },
+    {
+        "key": "ctrl+shift+x",
+        "command": "-workbench.view.extensions"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.editor.changeLanguageMode"
+    },
+    {
+        "key": "ctrl+k m",
+        "command": "-workbench.action.editor.changeLanguageMode"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "editor.action.smartSelect.grow",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+up",
+        "command": "editor.emmet.action.balanceOut",
+        "when": "editorTextFocus && editorLangId == html && editorHasSelection"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "editor.action.smartSelect.shrink",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl-down",
+        "command": "editor.emmet.action.balanceIn",
+        "when": "editorTextFocus && editorLangId == html"
+    }
+
+]
