@@ -27,7 +27,7 @@
       "command": "-workbench.view.extensions"
   },
   {
-      "key": "ctrl+alt+p",
+      "key": "ctrl+alt+l",
       "command": "workbench.action.editor.changeLanguageMode"
   },
   {
@@ -55,8 +55,22 @@
       "when": "editorTextFocus && editorLangId == html"
   },
   {
-    "key": "ctrl+alt+c",
+    "key": "ctrl+alt+f",
     "command": "workbench.files.action.collapseExplorerFolders"
+  },
+  {
+    "key": "ctrl+alt+oem_3",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+oem_3",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminal.active"
+  },
+  {
+    "key": "ctrl+shift+a",
+    "command": "workbench.view.extension.project-manager"
   }
 
 ]

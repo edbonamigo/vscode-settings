@@ -1,15 +1,33 @@
 {
-  "window.zoomLevel": 0,
   "git.enableSmartCommit": true,
   "git.confirmSync": false,
   "git.autofetch": true,
-
-  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 12,
+  "debug.console.fontSize": 15,
   "workbench.startupEditor": "newUntitledFile",
-
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.associations": {
+    "infra": "app",
+    "entities": "class",
+    "schemas": "class",
+    "typeorm": "database",
+    "repositories": "mappings",
+    "http": "container",
+    "migrations": "tools",
+    "modules": "components",
+    "implementations": "core",
+    "dtos": "typescript",
+    "fakes": "mock",
+    "websockets": "pipe",
+    "protos": "pipe",
+    "grpc": "pipe",
+  },
   "explorer.compactFolders": false,
   "editor.renderLineHighlight": "gutter",
-  "workbench.editor.labelFormat": "short",
+  "workbench.editor.labelFormat": "short", // na aba, mostra a pasta do arquivo
+  "breadcrumbs.enabled": true,
   "extensions.ignoreRecommendations": true,
   "editor.tabSize": 2,
   "[php]": {
@@ -21,76 +39,109 @@
   "[css]": {
     "editor.tabSize": 2
   },
-  "editor.fontLigatures": true,
   "html-css-class-completion.enableEmmetSupport": true,
   "workbench.colorCustomizations": {
-      "editorCursor.foreground": "#FFF"
+    "editorCursor.foreground": "#FFF",
+    "sideBar.border": "#bd93f9"
   },
   "editor.letterSpacing": 0.4,
-  "editor.minimap.enabled": true,
-  "workbench.colorTheme": "Monokai Pro",
+  "editor.minimap.enabled": false,
   "workbench.activityBar.visible": true,
   "window.menuBarVisibility": "toggle",
-  "breadcrumbs.enabled": true,
   "editor.renderControlCharacters": false,
   "editor.renderWhitespace": "none",
   "workbench.sideBar.location": "left",
   "editor.multiCursorModifier": "alt",
-  "editor.fontSize": 15,
-  "editor.lineHeight": 22,
   "editor.renderIndentGuides": true,
-  "editor.fontWeight": "500",
   "editor.detectIndentation": false,
   "editor.parameterHints.enabled": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-
   "javascript.updateImportsOnFileMove.enabled": "never",
   "typescript.updateImportsOnFileMove.enabled": "never",
-
-  "emmet.syntaxProfiles": { "javascript": "jsx" },
-  "emmet.includeLanguages": { "javascript": "javascriptreact" },
-
+  "emmet.syntaxProfiles": {
+    "javascript": "jsx"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "emmet.showAbbreviationSuggestions": true,
+  "emmet.showExpandedAbbreviation": "always",
+  "emmet.includeLanguages": {
+          "vue-html": "html",
+          "vue": "html"
+  },
   "javascript.suggest.autoImports": true,
-  "typescript.suggest.autoImports": true,  
-
+  "typescript.suggest.autoImports": true,
   "php.validate.executablePath": "E:\\xampp\\php\\php.exe",
   "launch": {
-    "configurations": [{
-      "type": "php",
-      "request": "launch",
-      "name": "Run using local PHP Interpreter",
-      "program": "${file}",
-      "runtimeExecutable": "E:\\xampp\\php\\php.exe"
-    }],
+    "configurations": [
+      {
+        "type": "php",
+        "request": "launch",
+        "name": "Run using local PHP Interpreter",
+        "program": "${file}",
+        "runtimeExecutable": "E:\\xampp\\php\\php.exe"
+      }
+    ],
   },
   "terminal.integrated.shell.windows": "C:\\Windows\\Sysnative\\cmd.exe",
   "terminal.integrated.shellArgs.windows": [
-      "/k C:\\Cmder\\vendor\\init.bat"
+    "/k C:\\Cmder\\vendor\\init.bat"
   ],
   "webhint.enableTelemetry": "disabled",
   "debug.javascript.codelens.npmScripts": "never",
   "eslint.format.enable": true,
   "eslint.lintTask.options": "",
-  "eslint.options": {
-    "no-console": 1,
-    "indent": [
-      "error",
-      "tab"
-    ],
-    "linebreak-style": [
-      "error",
-      "unix"
-    ],
-    "quotes": [
-      "error",
-      "single"
-    ],
-    "semi": [
-      "error",
-      "always"
-    ]
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+    }
   },
-
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+    }
+  },
+  "[typescript]": {
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.fixAll": true,
+    }
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.formatOnSave": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.lineHeight": 1.2,
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src"
+  },
+  "terminal.integrated.fontSize": 13,
+  "editor.suggestFontSize": 13,
+  "screencastMode.fontSize": 20,
+  "markdown.preview.fontSize": 13,
+  "projectManager.git.baseFolders": [
+    "E:\\www"
+  ],
+  "workbench.panel.defaultLocation": "right",
+  "editor.lineHeight": 20,
+  "security.workspace.trust.untrustedFiles": "open",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Monokai Pro",
 }
-
