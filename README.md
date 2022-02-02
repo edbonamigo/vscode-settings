@@ -1,4 +1,7 @@
-# Extensions
+## Font Fira Code
+- [How to install](https://github.com/tonsky/FiraCode/wiki/Installing)
+
+## Extensions
 
 - Color Highlight
 - EditorCondig for VS Code
@@ -28,3 +31,8 @@
 - Vue
 - Wordpress Snippets
 - Bracket Pair Colorizer 2
+
+## Terminal windows + wsl
+
+[How to install](https://www.sitepoint.com/wsl2/)
+[More customizations](https://mateusmlo.medium.com/guia-windows-terminal-wsl-2-e-vs-code-24a4635bef41)
