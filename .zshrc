@@ -8,7 +8,7 @@ export ZSH="/home/ed/.oh-my-zsh"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="eastwood"
+ZSH_THEME="spaceship"
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
@@ -119,7 +119,7 @@ antigen bundle dirhistory
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme eastwood
+antigen theme spaceship
 
 # Tell Antigen that you're done.
 antigen apply
