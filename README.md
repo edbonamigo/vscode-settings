@@ -1,10 +1,12 @@
 ## Font Fira Code
-- [How to install](https://github.com/tonsky/FiraCode/wiki/Installing)
+- [Font Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing)
 
 ## WSL 2 + Windows terminal
-
 - [How to install](https://www.sitepoint.com/wsl2/)
-- [More customizations](https://mateusmlo.medium.com/guia-windows-terminal-wsl-2-e-vs-code-24a4635bef41)
+
+## Terminal customization
+- [Install oh-my-zsh](https://ohmyz.sh/#install)
+- [Edit ~/.zshrc](https://github.com/edbmuller/vscode-settings/blob/master/.zshrc)
 
 ## Extensions
 
