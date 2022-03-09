@@ -2,39 +2,36 @@
 - [Font Fira Code](https://github.com/tonsky/FiraCode/wiki/Installing)
 
 ## WSL 2 + Windows terminal
-- [How to install](https://www.sitepoint.com/wsl2/)
+- [Best pratices for set up](https://docs.microsoft.com/en-us/windows/wsl/setup/environment#set-up-your-linux-username-and-password)
 
 ## Terminal customization
+- Enable Fira Conde on Windows Terminal accessing Settings > Base Layer > Appearance > Font.
+- Install zsh `sudo apt install zsh`.
 - [Install oh-my-zsh](https://ohmyz.sh/#install)
 - [Edit ~/.zshrc](https://github.com/edbmuller/vscode-settings/blob/master/.zshrc)
 
 ## Extensions
 
 - Color Highlight
-- EditorCondig for VS Code
+- EditorCondig
 - es6-string-html
 - ESLint
-- HTML Boilerplate
 - GreenSock Snippets
+- HTML Boilerplate
 - htmltagwrap
 - IntelliSense for CSS Classes
 - Javascript (ES6) code snippets
 - Live Server
 - Material Icon Theme
-- Minify
 - Monokai Pro
-- Path IntelliSense
-- PHP Debug
-- Prettier
+- Minify
 - Project Manager
+- Prettier
 - Quick and simple text selection
 - Remote - WSL
-- SQLite
-- Start git-bash
 - Sass
+- SQLite
 - TODO Highlight
-- Vetur
 - Visual Studio IntelliCode
+- Vetur
 - Vue
-- Wordpress Snippets
-- Bracket Pair Colorizer 2
