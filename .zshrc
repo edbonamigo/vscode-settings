@@ -114,6 +114,7 @@ antigen bundle copypath
 antigen bundle copyfile
 antigen bundle copybuffer
 antigen bundle dirhistory
+antigen bundle command-not-found
 
 # Syntax highlighting bundle.
 antigen bundle zsh-users/zsh-syntax-highlighting
