@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/ed/.oh-my-zsh"
+export ZSH="/home/edbmuller/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -101,14 +101,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Load antigen
-source /mnt/c/Users/edbmu/antigen.zsh
+source "/home/edbmuller/antigen.zsh"
 
-# Load the oh-my-zsh's library.
+# Load oh-my-zsh library
 antigen use oh-my-zsh
 
+# Load bundles from the default repo
 antigen bundle git
 antigen bundle sudo
-antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle web-search
 antigen bundle copypath
 antigen bundle copyfile
@@ -116,11 +116,13 @@ antigen bundle copybuffer
 antigen bundle dirhistory
 antigen bundle command-not-found
 
-# Syntax highlighting bundle.
+# Load from external repos
+antigen bundle zsh-users/zsh-completions
+antigen bundle zsh-users/zsh-autosuggestions
 antigen bundle zsh-users/zsh-syntax-highlighting
 
 # Load the theme.
-antigen theme spaceship
+antigen theme spaceship-prompt/spaceship-prompt
 
 # Tell Antigen that you're done.
 antigen apply
