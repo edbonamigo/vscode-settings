@@ -1,76 +1,85 @@
 // Place your key bindings in this file to override the defaults
 [
-  {
-      "key": "ctrl+shift+x",
-      "command": "workbench.view.explorer"
-  },
-  {
-      "key": "ctrl+shift+e",
-      "command": "-workbench.view.explorer"
-  },
-  {
-      "key": "ctrl+shift+x",
-      "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
-      "when": "inFilesPicker && inQuickOpen"
-  },
-  {
-      "key": "ctrl+shift+e",
-      "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
-      "when": "inFilesPicker && inQuickOpen"
-  },
-  {
-      "key": "ctrl+shift+e",
-      "command": "workbench.view.extensions"
-  },
-  {
-      "key": "ctrl+shift+x",
-      "command": "-workbench.view.extensions"
-  },
-  {
-      "key": "ctrl+alt+l",
-      "command": "workbench.action.editor.changeLanguageMode"
-  },
-  {
-      "key": "ctrl+k m",
-      "command": "-workbench.action.editor.changeLanguageMode"
-  },
-  {
-      "key": "ctrl+up",
-      "command": "editor.action.smartSelect.grow",
-      "when": "editorTextFocus"
-  },
-  {
-      "key": "ctrl+up",
-      "command": "editor.emmet.action.balanceOut",
-      "when": "editorTextFocus && editorLangId == html && editorHasSelection"
-  },
-  {
-      "key": "ctrl+down",
-      "command": "editor.action.smartSelect.shrink",
-      "when": "editorTextFocus"
-  },
-  {
-      "key": "ctrl-down",
-      "command": "editor.emmet.action.balanceIn",
-      "when": "editorTextFocus && editorLangId == html"
-  },
-  {
-    "key": "ctrl+alt+f",
-    "command": "workbench.files.action.collapseExplorerFolders"
-  },
-  {
-    "key": "ctrl+alt+oem_3",
-    "command": "workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
-    "key": "ctrl+oem_3",
-    "command": "-workbench.action.terminal.toggleTerminal",
-    "when": "terminal.active"
-  },
-  {
-    "key": "ctrl+shift+a",
-    "command": "workbench.view.extension.project-manager"
-  }
-
+	{
+		"key": "ctrl+shift+x",
+		"command": "workbench.view.explorer"
+	},
+	{
+		"key": "ctrl+shift+e",
+		"command": "-workbench.view.explorer"
+	},
+	{
+		"key": "ctrl+shift+x",
+		"command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+		"when": "inFilesPicker && inQuickOpen"
+	},
+	{
+		"key": "ctrl+shift+e",
+		"command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+		"when": "inFilesPicker && inQuickOpen"
+	},
+	{
+		"key": "ctrl+shift+e",
+		"command": "workbench.view.extensions"
+	},
+	{
+		"key": "ctrl+shift+x",
+		"command": "-workbench.view.extensions"
+	},
+	{
+		"key": "ctrl+alt+l",
+		"command": "workbench.action.editor.changeLanguageMode"
+	},
+	{
+		"key": "ctrl+k m",
+		"command": "-workbench.action.editor.changeLanguageMode"
+	},
+	{
+		"key": "ctrl+up",
+		"command": "editor.action.smartSelect.grow",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+up",
+		"command": "editor.emmet.action.balanceOut",
+		"when": "editorTextFocus && editorLangId == html && editorHasSelection"
+	},
+	{
+		"key": "ctrl+down",
+		"command": "editor.action.smartSelect.shrink",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl-down",
+		"command": "editor.emmet.action.balanceIn",
+		"when": "editorTextFocus && editorLangId == html"
+	},
+	{
+		"key": "ctrl+alt+c",
+		"command": "workbench.files.action.collapseExplorerFolders"
+	},
+	{
+		"key": "ctrl+alt+oem_3",
+		"command": "workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+	{
+		"key": "ctrl+oem_3",
+		"command": "-workbench.action.terminal.toggleTerminal",
+		"when": "terminal.active"
+	},
+	{
+		"key": "ctrl+shift+a",
+		"command": "workbench.view.extension.project-manager"
+	},
+	{
+		"key": "ctrl+alt+g",
+		"command": "github.copilot.generate",
+		"when": "editorTextFocus && github.copilot.activated"
+	},
+	{
+		"key": "ctrl+enter",
+		"command": "-github.copilot.generate",
+		"when": "editorTextFocus && github.copilot.activated"
+	}
 ]
